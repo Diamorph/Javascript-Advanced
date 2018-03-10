@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src ="script3.js"></script>
+    <link href="css3.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="elem" id="elem1"></div>
+    <div class="elem" id="elem2"></div>
+    <div class="elem" id="elem3"></div>
+    <script>
+        setInterval(
+            function () {
+                changePos("elem1");
+                changePos("elem2");
+                changePos("elem3");
+            },100);
+        //setInterval(changePos("elem2"),1);
+        //setInterval(changePos("elem3"),1);
+    </script>
+</body>
+</html>

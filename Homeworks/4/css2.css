@@ -1,0 +1,14 @@
+.aut{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.aut input{
+    margin: 5px;
+}
+#loginLabel {
+    margin-right: 10px;
+}
+p{
+   margin:0;
+}
