@@ -1,0 +1,30 @@
+form{
+    display: block;
+}
+
+form label{
+    float: left;
+    width: 170px!important;
+    text-align: right;
+    padding-right: 10px;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+form select{
+    margin-left: 180px;
+}
+
+.button_submit{
+    margin-left: 180px;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+input.valid {
+    border-color: green;
+}
